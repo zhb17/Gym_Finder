@@ -1,0 +1,80 @@
+body {
+  font-family: 'Prompt', Arial, sans-serif;
+  font-size: 0.6rem;
+  margin:0px;
+  height:100vh;
+  width:100vw;
+}
+
+img {
+  width:42px;
+  height:42px;
+}
+
+/*-------------------UPPER PART ------------------*/ 
+
+#upper_part{
+  max-width: 100%;
+  width: 100%;
+  height: 50%;
+}
+
+.title_container{
+  display:flex;
+  align-items: flex-end;
+}
+
+.header_bar{
+  background-color: rgba(200, 200, 200, 0.5);
+  display:flex;
+  justify-content: space-between;
+}
+
+#upper_part{
+  justify-content: space-between;
+  background-image: url('./../img/salle\ de\ muscu.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+  .links{
+  color:white;
+  display:flex;
+  align-items: center;
+  }
+
+span{
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  }
+
+h1{
+  color: white;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+/*-------------------LOW PART ------------------*/ 
+
+h2{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.argument {
+  /* objectif => FLEX*/
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-------------------FOOTER ------------------*/
+.footer_bar{
+  border: 10px solid rgb(72, 23, 232);
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width:100%;
+  left:0;
+  position:fixed;
+}
