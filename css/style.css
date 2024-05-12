@@ -1,7 +1,6 @@
 body {
   font-family: 'Prompt', Arial, sans-serif;
   font-size: 0.6rem;
-  margin:10px;
   height:100vh;
   width:100vw;
 }
@@ -28,6 +27,8 @@ img {
   background-color: rgba(200, 200, 200, 0.5);
   display:flex;
   justify-content: space-between;
+  padding: 0 60px;
+  margin-top: 50px;
 }
 
 #upper_part{
@@ -44,6 +45,10 @@ img {
   align-items: center;
   }
 
+.links:first-child{
+  margin: 10px;
+}
+
 span{
   color: white;
   font-weight: 700;
@@ -54,16 +59,26 @@ h1{
   color: white;
   font-weight: 700;
   font-size: 1.7rem;
+  padding: 0 60px;
 }
+
+#argument_container
+
 /*-------------------LOW PART ------------------*/ 
+
+main{
+  background-color: grey;
+}
 
 #low_part{
 background-color: rgb(170, 164, 164);
+height: 100vh;
 }
 
 #argument_container{
   display: flex;
   background-color: rgb(170, 164, 164);
+  padding-top: 70px;
 }
 
 h2{
@@ -71,6 +86,7 @@ h2{
   font-size: 1.2rem;
   border-bottom: 2px solid rgb(255, 255, 255);
   width: 50%;
+  padding-top: 50px;
 }
 
 .argument {
@@ -81,14 +97,15 @@ h2{
 
 /*-------------------FOOTER ------------------*/
 .footer_bar{
-  border: 10px solid rgb(72, 23, 232);
   bottom: 0;
-  background-color: black;
+  background-color: rgb(44, 44, 44);
   color: white;
   width:100%;
   left:0;
   position:fixed;
   display: flex;
   justify-content: space-between;
+  padding: 0 60px;
+  line-height:2REM;
 }
 
