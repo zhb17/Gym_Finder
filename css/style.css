@@ -57,9 +57,20 @@ h1{
 }
 /*-------------------LOW PART ------------------*/ 
 
+#low_part{
+background-color: rgb(170, 164, 164);
+}
+
+#argument_container{
+  display: flex;
+  background-color: rgb(170, 164, 164);
+}
+
 h2{
   font-weight: 700;
   font-size: 1.2rem;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 50%;
 }
 
 .argument {
