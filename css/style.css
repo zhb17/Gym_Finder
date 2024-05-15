@@ -29,6 +29,8 @@ img {
   justify-content: space-between;
   padding: 0 60px;
   margin-top: 50px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 #upper_part{
@@ -80,8 +82,10 @@ margin: auto 70px;
 
 #argument_container{
   display: flex;
-  background-color: rgb(170, 164, 164);
+  background-color: rgb(169, 169, 169)
   padding-top: 70px;
+  font-weight: 700;
+
 }
 
 h2{
@@ -101,7 +105,7 @@ h2{
 /*-------------------FOOTER ------------------*/
 .footer_bar {
   bottom: 0;
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(37, 37, 37);
   color: white;
   width:100%;
   left:0;
