@@ -131,4 +131,7 @@ h2{
 
 .legal_mention {
   padding-right: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
