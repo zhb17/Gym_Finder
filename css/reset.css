@@ -1,9 +1,13 @@
 body {
     margin: 0px;
-    background-color: rgb(122, 122, 122)
+    background-color: rgb(122, 122, 122);
 }
 
 h2 {
     margin: 0px;
 }
 
+hr {
+    margin: 0;
+    color: white;
+}
